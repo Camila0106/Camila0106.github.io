@@ -1,20 +1,120 @@
-<html>
-    <head>
-        <title>Santo Domingo</title>
-    </head>
-    <body>
-        <h1>Mi primera pagina</h1>
-        <style>
-            body{background-color: beige;}
-            h1 {color: coral;}
-            #integrantes {color: rgb(45, 135, 219);}
-            #agradecimiento {color: darkmagenta;margin-left: 40%;}
-        </style>
-        <img id="imagen1" src="img/ipp-corazon-humano.jpg" width="350" height="200">
-        <iframe width="350" height="250" src="https://www.youtube.com/embed/WN6sAN2hcFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-    </body>
+<!DOCTYPE html>
+<html lang="es">
+    <title>
+       PROYECTO STEAM 
+    </title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="PC,Hardware">
+    <link href="css/general.css" rel="stylesheet" type="text/css"/>
+    <link href="css/principal.css" rel="stylesheet" type="text/css"/>
+    <header>
+        <img id="tituloImangen" src="images/donacion-de-organos.jpg" width="8px" height="4px" alt="componentes" !important>
+        <input id="tituloTexto" type="search" placeholder="Buscar">
+        <img id="imagenPerfil" src="images/santo domingo.png" alt="perfil"> 
+        
+    </header>
+    <nav class = "navegacion">
+        <ul class = "lista">
+            <li><a href=https://www.who.int/es>OMS</a></li>
+            <li><a href=https://www.salud.gob.ec>MSP</a></li>
+            <li><a href=https://www.iess.gob.ec>IESS</a></li>
+            <li><a href=https://www.hospitalvernaza.med.ec>H.VERNAZA</a></li>
+            <li><a href=https://www.hospitaldelosvalles.com>H.VALLES</a></li>
+            <li><a href=https://www.iaf.gov/es>IAF</a></li>
+            <li><a href=http://www.donaciontrasplante.gob.ec/indot>INDOT</a></li>
+            <li><a href=https://www.hagp.gob.ec>HAGP</a></li>
+            </ul>
+    </nav>
+    <section id = "sectionHardware">
+        <h1 hidden> Introduccion al Hardware </h1>
+        <article class = "articleHardware">
+            <h2> ¿Que es la donación? </h2>
+            <p>La donación de órganos es la remoción de órganos o tejidos del cuerpo de una persona que ha muerto recientemente o de un donante vivo, con el propósito de realizar un trasplante. Los órganos y los tejidos son extirpados en procedimientos similares a la cirugía. </p>
+            <input id= "boton1" type="submit" value="Me gusta">
+            <input id= "boton2" type="submit" value="No me gusta">
+        </article>
+        <aside class="asideVideo">
+            <iframe id="video"
+            src="https://www.youtube.com/embed/x5ZVbNUQQzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </aside>
+    </section>
+    <section id =  "sectionNoticias">
+        <h1> NOTICIAS </h1>
+        <article class = "articleNoticia">
+            <h3 hidden>IEES</h3>
+            <cite>El Hospital José Carrasco Arteaga, realizó con éxito el primer trasplante multiorgánico de hígado y riñón.</cite>
+        </article>
+        <article class = "articleNoticia">
+            <h3 hidden>MSP</h3>
+            <cite>Un total de 1.564.095 personas renovaron su documento de identidad en 2012 y 1.441.449 dijeron sí a la donación</cite>
+        </article>
+        <article class = "articleNoticia">
+            <h3 hidden>OMS</h3>
+            <cite>MSA implementaron una serie de acciones para aumentar los trasplantes de órganos.</cite>
+        </article>
+        <article class = "articleNoticia">
+            <h3 hidden>INDOT</h3>
+            <cite>Ecuador en los últimos tres años registra un aumento en el número de donantes</cite>
+        </article>
+        <article class = "articleNoticia">
+            <h3 hidden>IAF</h3>
+            <cite>Mujer de 49 recibe el primer transplante de corazón desde que inició la pandemia</cite>
+        </article>
+        <article class = "articleNoticia">
+            <h3 hidden>HAGP</h3>
+            <cite>HAGP cuenta con los insumos necesarios para la realización de los exámenes médicos.</cite>
+        </article>
+        <input id= "boton3" type="submit" value="Visualizar">
+    </section>
+    <section id = "sectionValoracion">
+        <h1>¿Cómo ser donante? </h1>
+        <article class="articleValoracion">
+            <h2 hidden> Valoracion </h2>
+            <div class= "divImagen">
+                <img id="imagenValoracion" src="images/Valoracion.png" alt="perfil"> 
+            </div>
+            <div class="estrellas">
+                <a data-value="1">&#9733;</a>
+                <a data-value="2">&#9733;</a>
+                <a data-value="3">&#9733;</a>
+                <a data-value="4">&#9733;</a>
+                <a data-value="5">&#9733;</a>
+            </div>
+        </article>
+        <aside class="asideValoracion">
+            <p><i>" Ser mayor de edad y goce de un estado de salud adecuado, además de que exista compatibilidad biológica, anatómica y funcional con el receptor. Que el receptor tenga parentesco hasta cuarto grado de consanguinidad o se trate de su cónyuge o conviviente en Unión Libre."</i></p>
+        </aside>
+    </section>
     <footer>
-        <p id="integrantes"> Los integrantes son:Camila A, Ginger C, Mateo S, Jorge P </p>
-        <p id="agradecimiento">Gracias</p>
+        <!-- <hr class="separator"> -->
+        <div id = "footerInfo">
+            <div id = "divImage1">
+                <img id="imagenFacebook" src="images/Principal/facebook.png" alt="facebook">
+                <img id="imagenInstagram" src="images/Principal/instagram.png" alt="instagram">
+            </div>
+            <div id = "divImage2">
+                <img id="imagenContacto" style="margin-top: 5%; margin-left: 20%;" width="150" height="150" src="images/santo domingo.png" alt="contacto">
+            </div>
+            <div id = "divCopy">
+                &copy; Todos los derechos reservados
+            </div>
+        </div>
+        <div id = "footerContacto">
+            <form>
+                <fieldset>
+                    <legend> Quienes somos </legend>
+                        <label class="labelContacto"> CAMILA AYALA, GINGER COROZO, JORGE PEÑARANDA, MATEO SEMPERTEGUI </label>
+                        <label class="labelContacto"> Correo: <a href="jorge.penarandad@stodomingogualaceo.edu.ec"> 
+                        jorge.penarandad@stodomingogualaceo.edu.ec </a> </label>
+                        <label class="labelContacto"> Telefono: <a href="tel:+593992977836"> 
+                            0992977836 </a> </label>
+                            <label class="labelContacto"> UNIDAD EDUCATIVA PARTICULAR SANTO DOMINGO DE GUZMÁN GUALACEO </label>
+                </fieldset>
+            </form>
+        </div>
+        <div id = "footerLocalizacion">
+            <iframe id = "localizacion"
+            src="https://maps.google.com/?ll=-2.890517,-78.781193&z=16&output=embed"></iframe>
+        </div>
     </footer>
 </html>
